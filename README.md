@@ -2,7 +2,7 @@
 
 ## Summary of files
 The basic files in our code are:
-* ``leak.py``: with the input of ''enron_doc'' and ''enron_kws_list'', this file creates a ''enron_wl_v_off.pkl'' for Enron (also can be used for Lucene and Wikipedia) contains response length pattern and response size pattern of all keywords, and  the ''offset'' of ''Decoding'' attack. Actually, we have provided the file ''enron_wl_v_off.pkl'' after running locally.
+* ``leak.py``: with the input of ''enron_doc'' and ''enron_kws_list'', this file creates a ''enron_wl_v_off.pkl'' for Enron (also can be used for Lucene and Wikipedia) contains response length pattern and response size pattern of all keywords, and  the ''offset'' of ''Decoding'' attack. Actually, we have provided the file ''enron_wl_v_off.pkl'' after running locally. Therefore, one can run ``fig_*.py`` directly to view the results quickly.
 * ``attacks.py``: implements the different attacks we evaluate in our paper, mainly contains  ''Decoding'', ''Search'', ''BVA'', and ''BVMA''.
 * ``utils.py``: provides access to different functions that we use in the code (e.g., generate keywords trend matrix and simulate real queries, compute ''offset'' and volume pattern).
 
