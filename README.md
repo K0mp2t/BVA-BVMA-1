@@ -20,4 +20,4 @@ The processed datasets are under the ''Datasets'' folder for the three Enron, Lu
 3) ``wl_v_off.pkl``: is a dictionary containing the volume information of all keywords and offset of ''Decoding'' after running ''leak.py''. 
  
 ## Instructions
-One can directly run ``fig_*.py`` to save and plot the results.
+One can directly run ``fig_*.py`` or ``table_*.py`` to save and plot the results.
